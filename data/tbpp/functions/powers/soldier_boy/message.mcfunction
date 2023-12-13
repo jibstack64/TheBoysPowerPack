@@ -1,0 +1,2 @@
+
+tellraw @s ["\n",{"text":"You got","italic":true},{"text":" Soldier Boy","bold":true,"color":"green"},{"text":" !","italic":true},{"text":"\n"},{"text":"* ","bold":true},{"text":"Blow sh*t up!\n"},{"text":"* ","bold":true},{"text":"Nearly invincible (when shield in offhand)\n"},{"text":"*","bold":true},{"text":" Super-enhanced strength\n"},{"text":"* ","bold":true},{"text":"Increased resistance\n"}]

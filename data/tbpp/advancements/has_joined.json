@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "joined": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "tbpp:give_potion"
+    }
+}

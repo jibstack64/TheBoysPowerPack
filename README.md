@@ -16,13 +16,13 @@ Use the `/trigger tb_power_up` command to give you a random ability.
 
 Once an ability is allocated to a player, the only way to change it is by manually resetting the scoreboard value:
 ```
-/scoreboard players PlayerName tbpp_power 0
+/scoreboard players set PlayerName tbpp_power 0
 ```
 
 You can manually set someone's ability manually by setting their `tbpp_power` value to the ID of the power.
 
 ```
-/scoreboard players PlayerName tbpp_power 4
+/scoreboard players set PlayerName tbpp_power 4
 # ^ 4 = A-Train
 ```
 

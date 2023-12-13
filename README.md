@@ -19,7 +19,7 @@ Once an ability is allocated to a player, the only way to change it is by manual
 /scoreboard players set PlayerName tbpp_power 0
 ```
 
-You can manually set someone's ability manually by setting their `tbpp_power` value to the ID of the power.
+You can manually set someone's ability by setting their `tbpp_power` value to the ID of the power.
 
 ```
 /scoreboard players set PlayerName tbpp_power 4

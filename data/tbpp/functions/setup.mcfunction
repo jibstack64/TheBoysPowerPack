@@ -13,3 +13,5 @@ scoreboard objectives add tbpp_sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add tbpp_deaths deathCount
 
 scoreboard objectives add tb_power_up trigger
+scoreboard objectives add tb_github trigger
+scoreboard objectives add tb_version trigger

@@ -3,6 +3,14 @@
 scoreboard players add @a tbpp_power 0
 scoreboard players add @a tbpp_active 0
 scoreboard players enable @a tb_power_up
+scoreboard players enable @a tb_github
+scoreboard players enable @a tb_version
+
+## github/version
+execute as @a[scores={tb_github=1..}] run tellraw @s ["",{"text":"Made by "},{"text":"jibstack64","color":"yellow"},{"text":" ("},{"text":"source code","color":"aqua","clickEvent":{"action":"open_url","value":"https://github.com/jibstack64/TheBoysPowerPack"}},{"text":")."}]
+execute as @a[scores={tb_version=1..}] run tellraw @s ["",{"text":"TheBoysPowerPack","bold":true,"color":"gold"},{"text":" v1.0.0"}]
+scoreboard players set @a tb_github 0
+scoreboard players set @a tb_version 0
 
 ## give random power
 execute as @a[scores={tb_power_up=1..}] if score @s tbpp_power matches 1.. run function tbpp:errors/power

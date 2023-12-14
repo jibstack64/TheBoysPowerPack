@@ -13,3 +13,5 @@ execute as @s if score @s tbpp_power matches 3 run function tbpp:powers/hughie/m
 execute as @s if score @s tbpp_power matches 4 run function tbpp:powers/a_train/message
 execute as @s if score @s tbpp_power matches 5 run function tbpp:powers/soldier_boy/message
 execute as @s if score @s tbpp_power matches 6 run function tbpp:powers/butcher/message
+execute as @s if score @s tbpp_power matches 7 run function tbpp:powers/kimiko/message
+execute as @s if score @s tbpp_power matches 8 run function tbpp:powers/head_popper/message

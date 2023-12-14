@@ -1,0 +1,2 @@
+
+tellraw @a ["\n",{"text":"You got","italic":true},{"text":" Kimiko ","bold":true,"color":"green"},{"text":"!","italic":true},{"text":"\n"},{"text":"*","bold":true},{"text":" Regeneration abilities\n"},{"text":"* ","bold":true},{"text":"Speed, strength and jump boost (when active)\n"},{"text":"*","bold":true},{"text":" Increased resistance\n "}]

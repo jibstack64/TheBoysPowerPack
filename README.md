@@ -30,7 +30,7 @@ You can activate your ability by **jumping while crouching**.
 
 ### 1. *Homelander*
 
-When activated, you get flung directly up 100 or so blocks. You slowly fall back to the ground, giving you time to drift away from enemies.
+When activated, you get flung directly up 100 or so blocks. This does damage to all surrounding entities. You slowly fall back to the ground, giving you time to drift away from enemies.
 
 ![Homelander message](./images/homelander.png)
 
@@ -52,13 +52,15 @@ Memory teleportation can be used by holding a stick in your offhand. When you ac
 
 ### 4. *A-Train*
 
-High speed and a massive damage buff is provided while the ability is activated.
+High speed is provided while the ability is activated. Hitting into entities whilst speed is activated causes damage to them.
 
 ![A-Train message](./images/a-train.png)
 
 ### 5. *Soldier Boy*
 
 On toggling the ability, a massive explosion will occur 5 blocks in front of the player. The player is invulnerable but all other mobs, players and entities within the area will be affected.
+
+If you're holding a shield in your offhand you will not be able to activate your ability.
 
 If you have this ability and hold a shield in your offhand, you will be granted with the same invulnerability-level as Translucent in their invisible state (very tough).
 
@@ -68,6 +70,20 @@ If you have this ability and hold a shield in your offhand, you will be granted 
 
 While activated, laser beams will shoot out of your eyes, destroying any and all blocks that your eyes cross. You slowly lose health to poison while laser-ing as to mirror Butcher's illness in the show.
 
+The laser does damage to whatever entities it hits.
+
 Very high resilience and strength come with this ability.
 
 ![Billy Butcher message](./images/billy-butcher.png)
+
+### 7. *Kimiko*
+
+Enhanced regeneration and resistance. When activated, you gain a mild speed, strength and jump boost.
+
+![Kimiko message](./images/kimiko.png)
+
+### 8. *Head Popper*
+
+Basic resistance. Look at an entity and activate to deal substancial damage to them, if not kill them.
+
+![Head Popper message](./images/head-popper.png)

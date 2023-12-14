@@ -1,6 +1,6 @@
 # TheBoysPowerPack
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/jibstack64/TheBoysPowerPack) ![Static Badge](https://img.shields.io/badge/powers-6-orange)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/jibstack64/TheBoysPowerPack) ![Static Badge](https://img.shields.io/badge/powers-8-blue)
 
 A datapack adding several powers from The Boys.
 

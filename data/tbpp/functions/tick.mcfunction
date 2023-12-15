@@ -2,6 +2,7 @@
 ## make objectives available
 scoreboard players add @a tbpp_power 0
 scoreboard players add @a tbpp_active 0
+scoreboard players add @a tbpp_toggle 0
 scoreboard players enable @a tb_power_up
 scoreboard players enable @a tb_power_toggle
 scoreboard players enable @a tb_github

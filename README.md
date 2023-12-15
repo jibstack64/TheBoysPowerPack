@@ -28,6 +28,8 @@ You can manually set someone's ability by setting their `tbpp_power` value to th
 
 You can activate your ability by **jumping while crouching**.
 
+**To toggle your ability off or on type `/trigger tb_power_toggle`.** This is useful when bridging or with particularly destructive powers like *Soldier Boy*.
+
 ### 1. *Homelander*
 
 When activated, you get flung directly up 100 or so blocks. This does damage to all surrounding entities. You slowly fall back to the ground, giving you time to drift away from enemies.

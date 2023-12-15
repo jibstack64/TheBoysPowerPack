@@ -3,7 +3,7 @@ setblock ~ ~ ~ minecraft:chest{Tags:["tbpp_rng"]}
 
 loot replace block ~ ~ ~ container.0 loot tbpp:random_number
 
-execute store result score @s tbpp_power run data get block ~ ~ ~ Items[0].Count
+execute store result score @s[scores={tb_power_up=1..}] tbpp_power run data get block ~ ~ ~ Items[0].Count
 
 setblock ~ ~ ~ air
 

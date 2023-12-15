@@ -27,13 +27,13 @@ scoreboard players set @a tbpp_deaths 0
 execute as @a[scores={tb_power_toggle=1..}] if score @s tbpp_power matches ..0 run function tbpp:errors/toggle
 execute as @a[scores={tb_power_toggle=1..}] run scoreboard players add @s tbpp_toggle 1
 execute as @a[scores={tb_power_toggle=1..}] if score @s tbpp_toggle matches 2.. run scoreboard players set @s tbpp_toggle 0
-execute as @a[scores={tb_power_toggle=1..,tbpp_toggle=1}] run tellraw @a ["",{"text":"Your ability has been toggled "},{"text":"OFF","bold":true,"color":"red"},{"text":"."}]
-execute as @a[scores={tb_power_toggle=1..,tbpp_toggle=0}] run tellraw @a ["",{"text":"Your ability has been toggled "},{"text":"ON","bold":true,"color":"green"},{"text":"."}]
-execute as @a[scores={tb_power_toggle=1..,tbpp_active=1}] run function tbpp:activate
+execute as @a[scores={tb_power_toggle=1..}] if score @s tbpp_toggle matches 1.. run tellraw @s ["",{"text":"Your ability has been toggled "},{"text":"OFF","bold":true,"color":"red"},{"text":"."}]
+execute as @a[scores={tb_power_toggle=1..}] if score @s tbpp_toggle matches ..0 run tellraw @s ["",{"text":"Your ability has been toggled "},{"text":"ON","bold":true,"color":"green"},{"text":"."}]
+execute as @a[scores={tb_power_toggle=1..}] if score @s tbpp_toggle matches ..1 run function tbpp:activate
 scoreboard players set @a tb_power_toggle 0
 
 ## activate power
-execute as @a[scores={tbpp_jump=1.., tbpp_sneak=1.., tbpp_toggle=..0}] run function tbpp:activate
+execute as @a[scores={tbpp_jump=1..,tbpp_sneak=1..,tbpp_toggle=..0}] run function tbpp:activate
 scoreboard players set @a[scores={tbpp_jump=1..}] tbpp_jump 0
 scoreboard players set @a[scores={tbpp_sneak=1..}] tbpp_sneak 0
 

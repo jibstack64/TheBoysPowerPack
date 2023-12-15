@@ -10,7 +10,7 @@ scoreboard players enable @a tb_version
 
 ## github/version
 execute as @a[scores={tb_github=1..}] run tellraw @s ["",{"text":"Made by "},{"text":"jibstack64","color":"yellow"},{"text":" ("},{"text":"source code","color":"aqua","clickEvent":{"action":"open_url","value":"https://github.com/jibstack64/TheBoysPowerPack"}},{"text":")."}]
-execute as @a[scores={tb_version=1..}] run tellraw @s ["",{"text":"TheBoysPowerPack","bold":true,"color":"gold"},{"text":" v1.1.0"}]
+execute as @a[scores={tb_version=1..}] run tellraw @s ["",{"text":"TheBoysPowerPack","bold":true,"color":"gold"},{"text":" v1.1.3"}]
 scoreboard players set @a tb_github 0
 scoreboard players set @a tb_version 0
 
